@@ -1,6 +1,3 @@
-# UPI Payment Gateway
-
-  **https://youtu.be/Xlg78BR7krg**
 
 ## Tech 
 MERN Stack
@@ -29,7 +26,7 @@ MERN Stack
 
     PORT=10000
     merchant_key={write your merchant key of https://upigateway.com/}
-    fronted_url=https://www.mitramgroup.in/receipt
+    fronted_url=(your redirecting url)
     connectionString=mongodb://localhost:27017/upiPaymentGateway
 
 👉 fronted_url means it is redirect url for payment gateway. localhost not working for that that's why enter random any site for testing.
@@ -54,22 +51,8 @@ MERN Stack
 
 👉 now click on Connect Merchant and connect any merchant account of your.
 
-👉 now click on Connect Merchant and connect any merchant account of your.
-
 👉 for connect merchant account, you need staff account of that merchant. all steps for create that account are given in their site.
 
 👉 After Successfully done all above step, open API Keys tab.
 
 👉 Copy API Key and paste in .env file for merchant key.
-
-## Download Node JS : 
-
-  **https://nodejs.org/en/download/**
-
-## Download MongoDB Compass : 
-
-  **https://www.mongodb.com/try/download/compass**
-
-## Youtube Channel : 
- 
-  **https://www.youtube.com/DarshanParmarK**
